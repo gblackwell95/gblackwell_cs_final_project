@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+img {
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    float: left;
+}
+div#vertNav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 230px;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+    clear: left;
+    float: left;
+}
+div#vertNav li {
+    clear: both;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+form {
+    position: fixed;
+    bottom: 20px;
+    width: 230px;
+    float: left;
+    clear: left;
+}

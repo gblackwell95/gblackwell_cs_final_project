@@ -1,0 +1,15 @@
+/* dark mode */
+
+body {
+   background-color: #25274D;
+   color: #AAABB8;
+}
+div#vertNav {
+   background-color: #29648A;
+}
+div#veryNav li {
+   background-color: #464866;
+}
+div#vertNav li a {
+   color: #AAABB8;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsGame</title>
+    <link rel="stylesheet" href="vertBar.css">
+    <script src="script.js" defer></script>
+    <style>
+        #gameScreen {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="vertNav">
+        <img src="myPic.jpg" alt="me" id="pic">
+        <ul id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="codePortfolio.html">Projects</a></li>
+            <li><a href="jsGame.html">Games</a></li>
+        </ul>
+        <aside id="outline"></aside>
+        <form action="" id="contactMe">
+            <input type="button" id="contactBtn" value="Contact Me">
+        </form>        
+    </div>
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+
+    <script src="src/jsGame.js" type="module"></script>
+
+</body>
+</html>
